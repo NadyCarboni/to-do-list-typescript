@@ -36,6 +36,10 @@
   background-color: #CE6D8B;
   border: none;
   color: #fff;
+  width: 100%;
+}
+.to-do__button--edit {
+  background-color: #999;
 }
 .to-do__list {
   width: 80%;
