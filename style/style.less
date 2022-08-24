@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Cores 
+    @primary-color: #CE6D8B;
+.to-do {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+
+    &__title {
+        padding: 1rem;
+        font-size: 3rem;
+        color: @primary-color;
+    }
+    &__input-container {
+        display: flex;
+        margin: 1rem 2rem ;
+        min-width: 50%;
+        max-width: 70%;
+        flex-direction: column;
+    }
+    &__input {
+        padding: 0.3rem;
+        font-size: 1.5rem;
+        font-family: 'Lato', sans-serif;
+        margin: 1rem 0;
+       border: 1px solid #999;
+       border-radius: 10px;
+        
+    }
+    &__button {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 30px;
+        background-color: @primary-color;
+        border: none;
+        color: #fff;
+    }
+    &__list {
+   
+        width: 80%;
+    }
+    &__item {
+        display: flex;
+        margin: 1rem 0 ;
+        justify-content: space-between;
+        
+        border-radius: 10px;
+        padding: 1rem;
+        border: 1px solid #999;
+    }     
+    &__edit{
+        color: @primary-color;
+        background: none;
+        border: none;
+    }
+}
+
